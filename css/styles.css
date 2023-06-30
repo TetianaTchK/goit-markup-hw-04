@@ -112,6 +112,8 @@ button {
   color: #2e2f42;
   text-decoration: none;
   padding: 24px 0;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-item.link:hover,
 .header-menu-item.link:focus {
@@ -134,6 +136,7 @@ button {
   line-height: 1.5;
   color: var(--main-dark-cl);
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-address-list {
   display: flex;
@@ -165,21 +168,17 @@ button {
 }
 /*Section*/
 .hero-section {
-  background: #2e2f42;
   padding: 188px 0;
   max-weight: 1440px;
   margin: 0 auto;
-  background-image: url(../images/people-office.jpg);
-  background-image: linear-gradient(
-    to bottom,
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7),
-    url(..image/Dark_bg.jpg)
-  );
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
 }
 .hero-title {
   max-width: 496px;
@@ -207,6 +206,7 @@ button {
   height: 56px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: 'Roboto', sans-serif;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -214,8 +214,7 @@ button {
 }
 /*Section 1*/
 .benefits-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .benefits-list {
   display: flex;
@@ -239,6 +238,15 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.container-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 /*Section work*/
 .work-section {
@@ -311,7 +319,17 @@ button {
 .customers-icon {
   fill: currentColor;
 }
-
+.customers-section-name {
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 72px;
+}
 /*section portfolio*/
 .webstudio-concept {
   padding-top: 96px;
@@ -376,7 +394,10 @@ button {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  padding-bottom: 100px;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 .footer-logo,
 .footer-logo-two {
@@ -394,6 +415,8 @@ button {
   color: var(--accent-cl);
   display: inline-block;
   margin-bottom: 16px;
+  display: flex;
+  align-items: center;
 }
 .footer-descript {
   font-weight: 400;
@@ -402,4 +425,7 @@ button {
   letter-spacing: 0.02em;
   max-width: 264px;
   color: #f4f4fd;
+}
+.footer-content {
+  margin-right: 120px;
 }
