@@ -483,3 +483,8 @@ button {
 .modal-btn:focus .modal-icon {
   fill: #ffffff;
 }
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
