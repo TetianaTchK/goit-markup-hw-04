@@ -530,9 +530,6 @@ button {
 .link-overlay:hover .overlay {
   transform: translateY(0);
 }
-.overlay-container:hover .overlay {
-  transform: scaleY(0);
-}
 /*Footer Index+Portfolio*/
 .footer {
   background-color: #2e2f42;
