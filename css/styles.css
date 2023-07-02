@@ -177,7 +177,6 @@ button {
 /*Section*/
 .hero-section {
   padding: 188px 0;
-  max-weight: 1440px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -187,7 +186,9 @@ button {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
+  max-width: 1440px;
 }
+
 .hero-title {
   max-width: 496px;
   margin: 0 auto;
