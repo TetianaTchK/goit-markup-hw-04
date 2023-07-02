@@ -84,7 +84,7 @@ button {
   font-family: 'Raleway', sans-serif;
   margin-right: 76px;
 }
-.header-logo-two {
+.header-studio-two {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -96,6 +96,15 @@ button {
 .header-webstudio-navigation {
   display: flex;
   align-items: center;
+}
+.header-studio {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-white-cl);
 }
 .header-menu {
   display: flex;
