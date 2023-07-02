@@ -538,6 +538,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-family: 'Raleway';
 }
 .footer-logo-two {
   color: #d9d9d9;
@@ -562,18 +563,33 @@ button {
   margin-right: 120px;
 }
 .social-icon {
+  fill: #f4f4fd;
 }
 .social-text {
-  font-weight: 500;
   font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--footer-media-p);
+  letter-spacing: 0.32px;
+  color: var(--main-white-cl);
   margin-bottom: 16px;
 }
 .icons-list-footer {
   display: flex;
   gap: 16px;
+}
+.social-footer-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-footer-link: hover, .social-footer-link: focus {
+  background-color: #31d0aa;
 }
 .social-icons-item {
   width: 40px;
