@@ -218,7 +218,6 @@ button {
 .benefits-list {
   display: flex;
   gap: 24px;
-  justify-content: space-between;
 }
 .benefits-list-items {
   flex-basis: calc((100% - 3 * 24px) / 4);
@@ -484,7 +483,6 @@ button {
 }
 .link-overlay {
   position: relative;
-  display: inline-block;
   overflow: hidden;
 }
 .overlay {
